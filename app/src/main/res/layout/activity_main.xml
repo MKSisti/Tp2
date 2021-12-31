@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:id="@+id/MySpinner"
+            android:entries="@array/lstvilles"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:id="@+id/ColorsSpinner"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="second Activity"
+            android:onClick="LaunchSecondAct"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="list with image"
+            android:onClick="LaunchThirdAct"/>
+
+    </LinearLayout>
+</ScrollView>

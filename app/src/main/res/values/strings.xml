@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Tp2</string>
+    <string-array name="lstvilles">
+        <item>Tanger</item>
+        <item>Tetouan</item>
+        <item>Fes</item>
+        <item>Meknes</item>
+        <item>Rabat</item>
+    </string-array>
+    <string-array name="components">
+        <item>Activity</item>
+        <item>Service</item>
+        <item>ContentProvider</item>
+        <item>BradcastReceiver</item>
+        <item>Intent</item>
+        <item>Notification</item>
+        <item>Widget</item>
+    </string-array>
+</resources>

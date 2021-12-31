@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListViewAvecImage">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ListViewAvecImage"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Nom de fruit"
+                android:id="@+id/edtNom"
+                android:paddingHorizontal="12dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Description"
+                android:id="@+id/edtDesc"
+                android:paddingHorizontal="12dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Ajouter"
+                android:onClick="Ajouter"/>
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/listFruit"
+            android:layout_width="match_parent"
+            android:layout_height="570dp"
+            android:numColumns="2"/>
+    </LinearLayout>
+
+</ScrollView>
